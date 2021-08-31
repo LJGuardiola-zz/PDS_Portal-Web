@@ -31,8 +31,13 @@ function initNavbarScroll() {
 
 const initProjectsGallery = () => {
 
-    let isotope = new Isotope('.projects', {
-        itemSelector: '.projects__item'
+    const el = document.getElementById('iso-projects')
+
+    imagesLoaded(el, function() {
+        new Isotope(el, {
+            itemSelector: '.projects-item'
+        });
+        hideLoader();
     });
 
     document.querySelectorAll('.projects-filter__item').forEach(filterElem => {

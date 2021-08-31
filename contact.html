@@ -4,7 +4,7 @@
 
     <meta charset="utf-8">
 
-    <title>A&G Arquitectura - Proyectos</title>
+    <title>A&G Arquitectura - Contacto</title>
 
     <link rel="stylesheet" href="css/normalize.css">
     <link rel="stylesheet" href="css/app.css">
@@ -14,7 +14,7 @@
 <div class="loader">
     <span></span><span></span><span></span>
 </div>
-<div id="app" data-page="team">
+<div id="app" data-page="contact">
     <nav id="navbar" class="navbar navbar--alternative">
         <div class="navbar__container">
             <a class="navbar__brand" href="index.html">
@@ -30,97 +30,76 @@
                 <li class="navbar__item">
                     <a href="projects.html" class="navbar__link">Proyectos</a>
                 </li>
-                <li class="navbar__item navbar__item--current">
+                <li class="navbar__item">
                     <a href="team.html" class="navbar__link">Equipo</a>
                 </li>
-                <li class="navbar__item">
+                <li class="navbar__item navbar__item--current">
                     <a href="contact.html" class="navbar__link">Contacto</a>
                 </li>
             </ul>
         </div>
     </nav>
-    <section class="welcome-section welcome-section--second welcome-section--team">
+    <section class="welcome-section welcome-section--second welcome-section--contact">
         <div class="welcome-section__overlay">
             <div class="welcome-section__container">
-                <h1 class="welcome-section__title">Equipo</h1>
-                <span class="welcome-section__nav"><a href="index.html">Inicio</a> | Equipo</span>
+                <h1 class="welcome-section__title">Contacto</h1>
+                <span class="welcome-section__nav"><a href="index.html">Inicio</a> | Contacto</span>
             </div>
         </div>
     </section>
     <section class="horizontal-section">
         <div class="horizontal-section__container">
-            <h3 class="horizontal-section__title">NUESTRO EQUIPO</h3>
+            <h3 class="horizontal-section__title">COMO ENCONTRARNOS</h3>
             <div class="horizontal-section__content">
-                <h4 class="team-box__introduction">
-                    No podemos solos.<br/>
-                    Sabemos que el único camino hacia la meta es la sinergia de un equipo<br/> con talento que esté convencido de un objetivo y un propósito.
-                </h4>
-                <div class="team-boxes">
-                    <div class="team-box">
-                        <img class="team-box__img" src="images/team/1.jpeg" alt="" width="180" height="185">
-                        <h3 class="team-box__name">Sofia Martinez</h3>
-                        <span class="team-box__profession">Arquitecta</span>
-                        <p class="team-box__description">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
-                            tempor incididunt ut labore et
-                            dolore magna aliqua.</p>
-                        <p class="team-box__social">
-                            <a class="team-box__social__item" href="#">
-                                <i class="fa fa-facebook"></i>
-                            </a>
-                            <a class="team-box__social__item" href="#">
-                                <i class="fa fa-instagram"></i>
-                            </a>
-                            <a class="team-box__social__item" href="#">
-                                <i class="fa fa-twitter"></i>
-                            </a>
-                            <a class="team-box__social__item" href="#">
-                                <i class="fa fa-linkedin"></i>
-                            </a>
-                        </p>
+                <div class="contact">
+                    <div class="contact__map">
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3019.174645963142!2d-62.98092258495529!3d-40.82412741995389!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95f69844b2f3f5df%3A0x4678538c3d38a62c!2sUniversidad%20Nacional%20de%20R%C3%ADo%20Negro%20-%20Sede%20Atl%C3%A1ntica!5e0!3m2!1ses-419!2sar!4v1630209130835!5m2!1ses-419!2sar"
+                                width="100%" height="100%" allowfullscreen="" loading="lazy"></iframe>
                     </div>
-                    <div class="team-box">
-                        <img class="team-box__img" src="images/team/2.jpeg" alt="" width="180" height="185">
-                        <h3 class="team-box__name">Marcos Hernandez</h3>
-                        <span class="team-box__profession">Director</span>
-                        <p class="team-box__description">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
-                            tempor incididunt ut labore et
-                            dolore magna aliqua.</p>
-                        <p class="team-box__social">
-                            <a class="team-box__social__item" href="#">
-                                <i class="fa fa-facebook"></i>
-                            </a>
-                            <a class="team-box__social__item" href="#">
-                                <i class="fa fa-instagram"></i>
-                            </a>
-                            <a class="team-box__social__item" href="#">
-                                <i class="fa fa-twitter"></i>
-                            </a>
-                            <a class="team-box__social__item" href="#">
-                                <i class="fa fa-linkedin"></i>
-                            </a>
-                        </p>
+                    <form class="contact__form" autocomplete="off">
+                        <div class="contact__control">
+                            <label class="contact__label">
+                                Nombre <input class="contact__input" type="text" autocomplete="false">
+                            </label>
+                        </div>
+                        <div class="contact__control">
+                            <label class="contact__label">
+                                Email <input class="contact__input" type="text" autocomplete="false">
+                            </label>
+                        </div>
+                        <div class="contact__control">
+                            <label class="contact__label">
+                                Teléfono <input class="contact__input" type="text" autocomplete="false">
+                            </label>
+                        </div>
+                        <div class="contact__control">
+                            <label class="contact__label">
+                                Mensaje <textarea class="contact__input contact__textarea" rows="4" ></textarea>
+                            </label>
+                        </div>
+                        <input class="contact__button" type="button" value="Enviar">
+                    </form>
+                </div>
+                <div class="contact__info">
+                    <div class="contact__infobox">
+                        <i class="fa fa-phone"></i>
+                        <h4>Teléfono</h4>
+                        <p>(2920) 654715 | (2920) 123498</p>
                     </div>
-                    <div class="team-box">
-                        <img class="team-box__img" src="images/team/3.jpeg"  alt="" width="180" height="185">
-                        <h3 class="team-box__name">Sergio Rodriguez</h3>
-                        <span class="team-box__profession">Gerente de proyecto</span>
-                        <p class="team-box__description">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
-                            tempor incididunt ut labore et
-                            dolore magna aliqua.</p>
-                        <p class="team-box__social">
-                            <a class="team-box__social__item" href="#">
-                                <i class="fa fa-facebook"></i>
-                            </a>
-                            <a class="team-box__social__item" href="#">
-                                <i class="fa fa-instagram"></i>
-                            </a>
-                            <a class="team-box__social__item" href="#">
-                                <i class="fa fa-twitter"></i>
-                            </a>
-                            <a class="team-box__social__item" href="#">
-                                <i class="fa fa-linkedin"></i>
-                            </a>
-                        </p>
+                    <div class="contact__infobox">
+                        <i class="fa fa-envelope"></i>
+                        <h4>Email</h4>
+                        <p>aac@ayg.com</p>
+                    </div>
+                    <div class="contact__infobox">
+                        <i class="fa fa-map-marker"></i>
+                        <h4>Ubicación</h4>
+                        <p>Belgrano 526. Av. Don Bosco 500</p>
+                    </div>
+                    <div class="contact__infobox">
+                        <i class="fa fa-calendar"></i>
+                        <h4>Horario</h4>
+                        <p>Lunes - sábado: 8:00 - 20:00</p>
                     </div>
                 </div>
             </div>
